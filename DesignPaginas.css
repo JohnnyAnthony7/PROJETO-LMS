@@ -11,7 +11,7 @@ header{
 header a{
 
     font-family:'Segoe Script';
-    : 200pt;
+    border-top: 200pt;
     font-size: 20pt;
     color: lightgrey;
     padding:15px;
@@ -26,8 +26,4 @@ header header{
 
 header img{
     float:left;
-}
-hearder nav{
-    margin:10px auto;
-    background-color:red;
 }
