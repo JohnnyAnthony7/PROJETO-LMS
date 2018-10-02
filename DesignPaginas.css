@@ -2,19 +2,19 @@ body{
     margin: 0;  
     }
 
-#menu ul {
+.menu ul {
     margin: 0;
     background-color:black;
     list-style: none;
     text-align: center;  
 }
 
-#menu ul li {
+.menu ul li {
     display: inline;    
 }
 
-#menu ul li a {
-    padding: 15px 10px;
+.menu ul li a {
+    padding: 15px 5px;
     display: inline-block;
     color:antiquewhite;
     text-decoration:none;
@@ -28,6 +28,8 @@ body{
         
 }
 
-#menu ul li a:hover{
+.menu ul li a:hover{
     color: rgb(240, 128, 128);
 }
+
+
