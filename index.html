@@ -12,19 +12,16 @@
     <div class ="menu">
         <ul>
             <img src="logoimpacta.png">
-            <li><a href = "index.html">Home</a></li>
-            <li><a href = "listadecursos.html">Lista de Cursos</a></li>
-            <li><a href = "DetalhesdeCurso.html">Detalhes do curso</a></li>
-            <li><a href = "Disciplinas.html">Disciplina</a></li>
-            <li><a href = "Noticias.html">Notícias</a></li>
-			<li><a href = "Login.html">Login</a></li>
+            <li><a href ="{% url 'index' %}">Home</a></li>
+            <li><a href = "{% url 'listaDeCursos' %}">Lista de Cursos</a></li>
+            <li><a href = "{% url 'detalhesDeCurso' %}">Detalhes do curso</a></li>
+            <li><a href = "{% url 'disciplinas' %}">Disciplina</a></li>
+            <li><a href = "{% url 'noticias' %}">Notícias</a></li>
+			<li><a href = "{% url 'login' %}">Login</a></li>
         </ul>
     </div>
 
-
-    <div class=" conteudo"></div>
-    <div></div>
-    
+    <div class="mestra"><div class="conteudo"></div></div>
 
 </body>
 </html>
