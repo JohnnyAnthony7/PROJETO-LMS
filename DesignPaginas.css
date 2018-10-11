@@ -32,4 +32,13 @@ body{
     color: rgb(240, 128, 128);
 }
 
+.conteudo {
 
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin: 0px;
+        align-items: center;
+        justify-content: center;
+ }
+                
