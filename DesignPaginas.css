@@ -43,17 +43,48 @@ body{
     width: 1000px;
     height: 3000px;
     margin: 0px auto;
-    margin-top: 15px;
-    Color:#000066;
-    text-aling: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 6;
-   
+    margin-top: 15px;  
 }
 
+.img{
+    text-align: center;
+    padding: 10px 0;
+}
 
+.acesso{
+     cursor: pointer;
+     font-size: 21px;
+     font-weight: 400;
+     color: #000099;
+     max-width: 160px;
+     text-transform: uppercase;
+     padding: 0;
+     display: block;
+     margin: 20px auto 35px auto;
+   
+ }
 
+.botao{
+     font-family: arial;
+     font-size: 24px;
+     color: #000099;
+     text-align:center;
+     margin: 20px auto 35px auto;
+     padding: 0px;
+     display:block;	
+}
+.link{
+     font-family: arial;
+     font-size: 18px;
+     color: #000099;
+     text-align: center;
+     
+}
 
-
-
+.h4{
+     font-family: arial;
+     font-size: 18px;
+     color: #000099;
+     text-align: center;
+     
+}
