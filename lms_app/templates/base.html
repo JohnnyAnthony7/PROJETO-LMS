@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset= "UTF-8">
+    <link rel="stylesheet" href="/static/css/DesignPaginas.css">
+    {% block title %}
+    <title>Faculdade Impacta Tecnologia</title>
+    {% endblock title%}
+    
+
+</head>
+<body>
+    <body background = /static/images/stars.jpeg> 
+    
+    <div class ="menu">
+        <ul>
+            <img src="/static/images/logoimpacta.png">
+            <li><a href ="{% url 'home' %}">Home</a></li>
+            <li><a href = "{% url 'listaCurso' %}">Lista de Cursos</a></li>
+            <li><a href = "{% url 'detalhesCurso' %}">Detalhes do curso</a></li>
+            <li><a href = "{% url 'disciplinas' %}">Disciplinas</a></li>
+            <li><a href = "{% url 'noticias' %}">Notícias</a></li>
+			<li><a href = "{% url 'login' %}">Login</a></li>
+        </ul>
+
+    <div class="conteudo"><div>
+        {% block content %}
+
+        {% endblock content %}
+    </div></div>
+
+</body>
+</html>
