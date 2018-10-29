@@ -1,5 +1,5 @@
 from django.db import models
-from lms_app.professor import *
+from lms_app.aluno import Professor
 from lms_app.disciplina import *
 class DisciplinaOfertada(models.Model):
 	def __str__(self):

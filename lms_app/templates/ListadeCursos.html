@@ -1,31 +1,38 @@
 ﻿{% extends 'base.html' %}
-
 {% block content %}
-        
-<!--Colocar conteudo da página aqui-->
-<div class="itens">
-        <br/><br/>
-        <h1>Bacharelado</h1>
-        <ul>
-          <li>Administração</li>
-              <li>Análise e Desenvolvimento de Sistemas</li>
-              <li>Análise e Desenvolvimento de Sistemas EAD</li>
-              <li>Engenharia da Computação</li>
-              <li>Sistemas de Informação</li><br/><br/>
-        </ul>
-    
-        <h1>Tecnólogo</h1>
-            <ul>
-              <li>Banco de Dados</li>
-          <li>Gestão da Tecnoçogia da Informação</li>
-              <li>Jogos Digitais</li>
-              <li>Processos Gerenciais</li>
-              <li>Produção Multimídia</li>
-              <li>Redes de Computadores</li><br/><br/>		
-    
-            </ul>
-          </div>
-    
 
+        
+        <div class="h1">Bacharelado</div><br/>
+
+      <div class="box box-1">
+        <center>
+        <a href="{% url 'ADM' %}">Administração</a></li>
+        <a href="{% url 'Engenharia' %}">Engenharia da Computação</li>
+        <a href="{% url 'SI' %}">Sistemas de Informação</a></li>                  
+
+        </center>
+      </div>
+        <br/>
+            
+        <div class="h1">Tecnólogo</div><br/>
+        
+        
+        <center>
+        <div class="box box-1">
+        <a href="{% url 'ADS' %}">Análise e Desenvolvimento de Sistemas</a></li>
+        <a href="{% url 'ADSEAD' %}">Análise e Desenvolvimento de Sistemas EAD</a></li>
+        </div>
+        <div class="box box-1">
+        <a href="{% url 'BD' %}">Banco de Dados</a>
+        <a href="{% url 'Gestao' %}">Gestão da Tecnoçogia da Informação</a>
+        <a href="{% url 'Jogos' %}">Jogos Digitais</a>
+        
+        </div>
+        <div class="box box-1">
+        <a href="{% url 'Processos' %}">Processos Gerenciais</a>
+        <a href="{% url 'Producao' %}">Produção Multimídia</a>
+        <a href="{% url 'Redes' %}">Redes de Computadores</a>
+        </center>
+        </div>
 
 {% endblock content %}

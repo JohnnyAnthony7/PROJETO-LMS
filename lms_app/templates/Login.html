@@ -1,24 +1,28 @@
 ﻿{% extends 'base.html' %}
-
 {% block content %}
-        
-<!--Colocar conteudo da página aqui-->
-<form>
-<div class="img">	
-		<br/><br/>
-		<img src="/static/images/impacta.png" height="200" width="240" border='0'/></center><br/><br/>
+
+        <!-----Colocar o conteúdo da página aqui-->
+	
+          <div class="img">	
+        <br/><br/>
+        {% load static %}
+		<img src="{% static 'fonts/logoimpacta.png' %}" height="auto" width="auto" border='0'/></center><br/><br/>
           </div>
           <div class="acesso">
 		Login <input type="login"><br/><br/>
                 Senha <input type="password"><br/>
           </div>
           <div class="link">
-		<a href = "{% url 'esqueceuSenha' %}">Esqueceu a senha?</a><br/>
+		<a href = "{% url 'esqueceuSenha' %}">Esqueceu a senha?</a><br/><br/>
           </div>
-          <div class="botao">
+          <div class="btn">
                 <input type="submit" value="FAZER LOGIN"/><br/><br/>
           </div>
-        </form>
+          
+          
+           
+
+
 
 
 {% endblock content %}

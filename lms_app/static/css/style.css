@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;  
     }
 
@@ -28,31 +28,22 @@ body{
         
 }
 
-.menu ul li a:hover{
+.menu ul li a:hover {
     color: rgb(240, 128, 128);
 }
 
-.mestra{
+.conteudo {
     align-items: center;
     justify-content: center;
 }
 
-.conteudo{
-    background-color:white;
-    align-content: center;
-    width: 1000px;
-    height: 3000px;
-    margin: 0px auto;
-    margin-top: 15px;  
-}
-
-.img{
+.img {
     text-align: center;
     padding: 10px 0;
     margin: 15px
 }
 
-.acesso{
+.acesso {
      cursor: pointer;
      font-size: 21px;
      font-weight: 400;
@@ -65,7 +56,7 @@ body{
    
  }
 
-.btn  input{
+.btn  input {
      font-family: arial;
      font-size: 16px;
      font-weight: 700;
@@ -78,11 +69,11 @@ body{
      margin: 10px auto 35px auto;	
 }
 
-.btn:hover{
+.btn:hover {
     color: gray;
 }
 
-.preencher{
+.preencher {
      font-family: arial;
      font-size: 18px;
      color: #000099;
@@ -100,10 +91,11 @@ body{
     text-transform:uppercase;
 }
 
-.opcoes:hover{
+.opcoes:hover {
     color:white;
 }
-.opcoes{
+
+.opcoes {
     margin: 0px auto;
     text-align: center;
     width: 300px;
@@ -114,11 +106,8 @@ body{
     text-transform:uppercase;
 }
 
-.opcoes:hover{
-    color:white;
-}
 
-.link{
+.link {
      font-family: arial;
      font-size: 18px;
      color: #000099;
@@ -126,7 +115,7 @@ body{
      
 }
 
-.h1{ 
+.h1 { 
      font-family: arial;
      font-size: 26px;
      font-weight:700;
@@ -136,7 +125,7 @@ body{
      margin: 10px;
 }
 
-.h2{ 
+.h2 { 
      font-family: arial;
      font-size: 22px;
      font-weight:700;
@@ -146,7 +135,7 @@ body{
      margin: 0px 25px;
 }
 
-.h3{ 
+.h3 { 
      font-family: arial;
      font-size: 16px;
      font-weight:700;
@@ -157,14 +146,14 @@ body{
 }
 
 
-.h4{
+.h4 {
      font-family: arial;
      font-size: 18px;
      color: #FFFFFF;
      text-align: center; 
 }
 
-.h5{ 
+.h5 { 
      font-family: arial;
      font-size: 16px;
      font-weight:700;
@@ -175,8 +164,8 @@ body{
      margin: 0px 25px;
 }
 
-.box a{
-    background-origin;
+.box a {
+    background-origin: border-box;
     font-family: arial;
     font-size: 18px;
     font-weight:700;
@@ -194,12 +183,12 @@ body{
 }
 
 .box{
-  background-origin;
+  background-origin: border-box;
   box-shadow:0 5px 0;
 }
 
 .box-1:hover{
-  background;
+background-origin: border-box;
   box-shadow:0 5px 0;  
 }
 
@@ -208,5 +197,3 @@ body{
   top:5px;
   box-shadow:none;
 }
-
-

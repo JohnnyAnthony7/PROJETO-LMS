@@ -1,0 +1,15 @@
+﻿{% extends 'base.html' %}
+{% block content %}
+
+<center>
+             
+    <div class="h1">Selecione uma Opção</div><br/>
+    
+    <div class="box box-1">
+          <a href="{% url 'cadastroAluno' %}">Cadastro de Alunos</a>
+          <a href="{% url 'cadastroProfessor' %}">Cadastro de Professores</a>
+          <a href="{% url 'cadastroDisciplina' %}">Cadastro de Disciplinas</a>
+    </div>
+</center>
+
+{% endblock content %}

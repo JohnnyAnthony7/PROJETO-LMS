@@ -1,27 +1,6 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset= "UTF-8">
-    <title>Faculdade Impacta Tecnologia</title>
-    <link rel="stylesheet" href="DesignPaginas.css">
+﻿{% extends 'base.html' %}
+{% block content %}
 
-</head>
-<body>
-    <body background= stars.jpeg> 
-    
-    <div class ="menu">
-        <ul>
-            <img src="logoimpacta.png">
-            <li><a href = "index.html">Home</a></li>
-            <li><a href = "listadecursos.html">Cursos</a></li>
-            <li><a href = "Login.html">Login</a></li>
-            <li><a href = "cadastro.html">Cadastro</a></li>
-        </ul>
-    </div>
-
-    <div class="mestra">
-
-        <!-----Colocar o conteúdo da página aqui-->
           <div class="h2">Jogos Digitais</div><br/>
           <div class="h3">Design de Games e Game Programming</div><br/>
           <center>
@@ -49,7 +28,4 @@
           </table>
         </center></div>
 
-    </div>
-
-</body>
-</html>
+{% endblock content %}
