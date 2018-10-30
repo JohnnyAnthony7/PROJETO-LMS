@@ -68,3 +68,6 @@ def cursoRedes(request):
 
 def cursoProducao(request):
         return render(request, 'producao.html')
+
+def disciplinas(request):
+        pass
