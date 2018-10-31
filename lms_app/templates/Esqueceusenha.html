@@ -4,7 +4,8 @@
         <!-----Colocar o conteúdo da página aqui-->
 		<br/><br/>
 		<div class="img">
-		<img src="logoimpacta.png" height="auto" width="auto" border='0'/>
+		{% load static %}
+		<img src="{% static 'images/logoimpacta.png' %}" height="auto" width="auto" border='0'/>
 		</div>
           
 		<div class="h4">Para redefinir sua senha, digite o seu endereço de e-mail. 

@@ -16,6 +16,7 @@ class Aluno(models.Model):
     celular = models.TextField(max_length=20)
     login = models.TextField(max_length=20)
     senha = models.TextField(max_length=20)
+CPF = models.TextField(max_length=11)
 
 class Professor(models.Model):
 	def __str__(self):
@@ -30,11 +31,14 @@ class Professor(models.Model):
 		if len(Aluno.objects.filter(login=self.login))!=0:
 			raise Exception("")
 		super(Professor,self).save()
+
 	nome = models.TextField(max_length=255)
 	email = models.TextField(max_length=255)
 	celular = models.TextField(max_length=20)
+	CPF = models.TextField(max_length=11)
 	login = models.TextField(max_length=20)
 	senha = models.TextField(max_length=20)
+	
     
 
 
